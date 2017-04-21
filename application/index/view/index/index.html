@@ -1,0 +1,16 @@
+<html>
+    <table>
+        <tr>
+            <td>Id</td>
+            <td>Username</td>
+            <td>Email</td>
+        </tr>
+        {volist name = "data" id = "vo"}
+            <tr>
+                <td>{$vo.id}</td>
+                <td>{$vo.username}</td>
+                <td>{$vo.email}</td>
+            </tr>
+        {/volist}
+    </table>
+</html>
